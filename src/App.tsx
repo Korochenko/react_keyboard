@@ -8,7 +8,7 @@ class App extends React.Component<{}, AppState> {
   state: Readonly<AppState> = {
     pressedKey: null,
   };
-  
+
   // constructor(props: {}) {
   //   super(props);
   //   this.state = {
