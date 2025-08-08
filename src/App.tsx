@@ -4,7 +4,7 @@ interface AppState {
   pressedKey: string | null;
 }
 
-class App extends React.Component<{}, AppState> {
+export class App extends React.Component<{}, AppState> {
   state: Readonly<AppState> = {
     pressedKey: null,
   };
